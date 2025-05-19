@@ -3,15 +3,44 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     color: #212529;
 }
 
 /* Remove the body::before overlay since we don't need it anymore */
+=======
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #343a40;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #42DCA3;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin-right: 15px;
+    font-size: 1.1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #42DCA3;
+}
+>>>>>>> 57d8590609630e90355873d9c6e8164841d415c8
 
 /* Sections */
 section {
     padding: 60px 0;
     text-align: center;
+<<<<<<< HEAD
     background-color: white;
 }
 
@@ -32,10 +61,13 @@ section {
     margin: 20px 0;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+=======
+>>>>>>> 57d8590609630e90355873d9c6e8164841d415c8
 }
 
 /* About Section */
 #about {
+<<<<<<< HEAD
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,6 +93,15 @@ section {
 
 #about strong {
     color: #42DCA3;
+=======
+    background: white;
+}
+
+#about h2 {
+    color: #343a40;
+    font-size: 2rem;
+    margin-bottom: 20px;
+>>>>>>> 57d8590609630e90355873d9c6e8164841d415c8
 }
 
 /* Skills Section */
@@ -118,6 +159,7 @@ section {
 
 /* Footer */
 footer {
+<<<<<<< HEAD
     color: rgb(14, 13, 13);
     padding: 20px 0;
     text-align: center;
@@ -159,3 +201,10 @@ footer {
 .navbar-collapse {
     background: transparent;
 }
+=======
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+>>>>>>> 57d8590609630e90355873d9c6e8164841d415c8
