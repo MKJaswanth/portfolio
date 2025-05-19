@@ -1,0 +1,161 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #212529;
+}
+
+/* Remove the body::before overlay since we don't need it anymore */
+
+/* Sections */
+section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: white;
+}
+
+#about, #projects {
+    background: white;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#download {
+    background: white;
+    color: #212529;
+}
+
+#contact {
+    background: white;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+#about {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+}
+
+#about h2 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+#about p {
+    position: relative;
+    z-index: 2;
+    color: white;
+    line-height: 1.8;
+}
+
+#about strong {
+    color: #42DCA3;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #e9ecef;
+    padding: 80px 0;
+}
+
+#skills h2 {
+    color: #212529;
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+#projects {
+    background: white;
+}
+
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+#contact {
+    background-color: #e9ecef;
+}
+
+#contact h2 {
+    color: #343a40;
+}
+
+.banner-social-buttons button {
+    margin: 10px;
+    background: #42DCA3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.banner-social-buttons button:hover {
+    background: #35b082;
+}
+
+/* Footer */
+footer {
+    color: rgb(14, 13, 13);
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #343a40;
+    padding: 1rem;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin-right: 15px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    background: transparent;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #000000 !important;
+    background-color: white;
+    transform: translateY(-2px);
+}
+
+.navbar-nav .nav-link.active {
+    color: #42DCA3;
+    background: transparent;
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: #000000 !important;
+    background-color: white;
+}
+
+.navbar-collapse {
+    background: transparent;
+}
